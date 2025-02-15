@@ -17,7 +17,7 @@ import calendar
 
 # Base folder path settings
 csv_base_path = "/home/maika/anaconda3-lab/project/sotsuken/data/Satellite Data(2024_ZhangMaoquan)/africa data/valid/split_by_date/"
-result_base_folder = './images/africa/sonomama/valid/' + datetime.now().strftime("ok%Y-%m-%d_%H-%M-%S")
+result_base_folder = './images/africa/valid/' + datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 # Function to load data
 def load_data(csv_file_path):
