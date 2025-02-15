@@ -18,8 +18,8 @@ import torch
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from chat.CNNdataloader2 import make_datapath_list, DataTransform, SatelliteDataset
-from model2_2 import Net
+from DataLoader import make_datapath_list, DataTransform, SatelliteDataset
+from InceptionModel import Net #Change the model as needed
 from torch.utils.data import DataLoader
 from matplotlib.colors import Normalize, ListedColormap
 import pandas as pd
