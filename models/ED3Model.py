@@ -12,7 +12,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 import numpy as np
 import matplotlib.pyplot as plt
-from chat.CNNdataloader2 import make_datapath_list, DataTransform, SatelliteDataset, augment_training_data
+from DataLoader import make_datapath_list, DataTransform, SatelliteDataset, augment_training_data
 import torch.nn.functional as F
 import os
 from matplotlib.colors import Normalize, ListedColormap
