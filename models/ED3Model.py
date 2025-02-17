@@ -237,7 +237,7 @@ if __name__ == "__main__":
     optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3)
 
-    rootpath = '/home/maika/anaconda3-lab/project/sotsuken/images/africa'  # Root path for data
+    rootpath = ''  # Root path for data
     input_size = (100, 160)  # Image input size
 
     # Generate dataset file paths
