@@ -10,8 +10,8 @@ import os
 from tqdm import tqdm
 
 # Define file paths and parameters
-csv_file_path = "/home/maika/anaconda3-lab/project/sotsuken/data/Satellite Data(2024_ZhangMaoquan)/asia data/normalized_valid_data_with_original_asia.csv"
-output_dir = "/home/maika/anaconda3-lab/project/sotsuken/data/Satellite Data(2024_ZhangMaoquan)/asia data/valid/split_by_date/"
+csv_file_path = ""
+output_dir = ""
 
 # Create the output directory if it does not exist
 if not os.path.exists(output_dir):
