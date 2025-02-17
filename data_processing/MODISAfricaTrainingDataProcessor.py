@@ -14,7 +14,7 @@ import os
 from datetime import datetime
 
 # Define base paths for CSV files and result storage
-csv_base_path = "/home/maika/anaconda3-lab/project/sotsuken/data/Satellite Data(2024_ZhangMaoquan)/africa data/split_by_date"
+csv_base_path = ""
 result_base_folder = './images/africa/train/MODIS/' + datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 # Function to load CSV data
