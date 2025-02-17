@@ -327,7 +327,7 @@ if __name__ == "__main__":
     model.load_state_dict(torch.load(weights_path, map_location=device, weights_only=True))
     print(f"Model {weights_path} loaded successfully.")
 
-    rootpath = '/home/maika/anaconda3-lab/project/sotsuken/images/africa'  # Root path for data
+    rootpath = ''  # Root path for data
     input_size = (100, 160)  # Image input size
 
     # Generate test dataset file paths
