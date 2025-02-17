@@ -68,7 +68,7 @@ Conversion = Conversion(
 )
 
 # Define output CSV file path
-output_csv_path = "/home/maika/anaconda3-lab/project/sotsuken/data/Satellite Data(2024_ZhangMaoquan)/asia data/normalized_valid_data_with_original_asia.csv"
+output_csv_path = ""
 
 # Save the normalized data along with the original data
 Conversion.save_to_csv(output_csv_path)
